@@ -6,7 +6,7 @@
 /*   By: lbarthon <lbarthon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/06 13:40:48 by lbarthon          #+#    #+#             */
-/*   Updated: 2018/11/13 10:55:56 by lbarthon         ###   ########.fr       */
+/*   Updated: 2018/11/16 13:29:03 by lbarthon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -113,5 +113,7 @@ int				ft_tablength(char **tab);
 int				ft_intlength(int n);
 char			**ft_tabcpy(char **dest, const char **src);
 int				ft_strclen(char *str, char c);
+char			*ft_strcdup(char *str, char c);
+size_t			ft_strlen_nofault(char *str);
 
 #endif
